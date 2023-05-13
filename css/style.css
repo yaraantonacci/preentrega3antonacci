@@ -1,0 +1,287 @@
+/*font-family: 'Abel', sans-serif;
+
+font-family: 'Bodoni Moda', serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Space Grotesk', sans-serif;*/
+
+
+*{
+    padding: 0%;
+    margin: 0%; 
+ }
+ 
+ body{
+     background-color: rgb(224, 219, 215);
+ }
+ 
+ /*barra de navegación*/
+ .navbar-mia{
+     background-color: rgb(154, 203, 207);
+     justify-content: right;
+     font-family: 'Abel', sans-serif;
+     font-size: 18px;
+ }
+ 
+ .navbar-miaprinc{
+     background-color: rgb(154, 203, 207);
+     justify-content: right;
+     font-family: 'Abel', sans-serif;
+     font-size: 23px;  
+ }
+ 
+ .dropdown-mio{
+     background-color:rgb(66, 174, 186) ;
+ }
+ 
+ .titulonav-mio{
+     color: rgb(3, 84, 73);
+     font-size: 30px;
+     font-family: 'Julius Sans One', sans-serif;
+     
+ }
+ 
+ 
+ 
+ 
+ /*main*/
+ .titulo-mio{
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 100px;
+     color: rgb(52, 15, 122);
+ }
+ 
+ .titulo-mio2{
+     font-size: 70px;
+     color: rgb(78, 5, 138);
+     font-family: 'Julius Sans One', sans-serif;
+ }
+ .titulo-mapa{
+     font-size: 80px;
+     color: rgb(78, 5, 138);
+     margin-left: 80px;
+     font-family: 'Julius Sans One', sans-serif;
+ }
+ 
+ .texto-mio{
+     font-size: 20px;
+     color: rgb(34, 22, 46);
+     font-family: 'Space Grotesk', sans-serif;
+ }
+ 
+ .texto-carrusel{
+     font-size: 45px;
+     font-family: 'Abel', sans-serif;
+ 
+ }
+ 
+ .texto-carrusel2{
+     font-family: 'Abel', sans-serif;
+     font-size: 25px;
+ }
+ 
+ .h2-actividades{
+     color: rgb(36, 51, 125);
+     font-size: 50px;
+     margin: 30px 150px;
+     font-family: 'Fjalla One', sans-serif;
+ }
+ 
+ .acordeon-fondo1,
+ .acordeon-fondo1:active{
+     background-color: rgb(95, 196, 214);
+     font-family: 'Julius Sans One', sans-serif;
+ }
+ .acordeon-fondo2{
+     background-color:  rgb(154, 205, 214);
+     font-family: 'Julius Sans One', sans-serif;
+ }
+ .acordeon-fondo3{
+     background-color:  rgb(223, 235, 236);
+     font-family: 'Julius Sans One', sans-serif;
+ }
+ 
+ .texto-acordeon{
+     font-family: 'Space Grotesk', sans-serif;
+ }
+ 
+ 
+ .mi-hotel{
+     color: rgb(44, 132, 110);
+     font: 45px;
+     margin: 20px 100px;
+     font-family: 'Abel', sans-serif;
+ }
+ 
+ .mi-card{
+     background-color: rgb(207, 248, 244);
+     font-size: 20px;
+     font-family: 'Bai Jamjuree', sans-serif;
+ }
+ 
+ .micarta{
+     margin: 0px 00px;
+     
+ }
+ 
+ .estilo-img{
+     
+     width: 300px;
+     height: 250px;
+    
+ }
+
+ .fila123{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: red ;
+ }
+ 
+ .iframe-mio{
+     width: 600px;
+     height: 350px;
+     
+ }
+ 
+ .iconos-mio{
+     margin: 10px 100px;
+ }
+ 
+ .iconos-miotren{
+     margin: 10px 300px;
+ }
+ 
+ .h2-mapa{
+     font-size: 60px;
+     color: rgb(78, 5, 138);
+     margin-left: 80px;
+     font-family: 'Julius Sans One', sans-serif;
+ }
+ 
+ 
+ 
+ /*section*/
+ .subtitulo-1{
+     font-size: 50px;
+     color: rgb(85, 26, 195);
+     margin: 50px 250px;
+     font-family:'Oswald', sans-serif;
+     
+ 
+ }
+ 
+ .tarjeta-mia{
+     background-color: rgb(166, 213, 235);
+     padding: 15px;
+     margin: 60px 100px 60px 100px;
+     border-radius: 10px;
+     font-family: 'Fjalla One', sans-serif;
+    
+ 
+ }
+  
+ 
+ 
+ /*aside*/
+ .subtitulo-2{
+     font-size: 55px;
+     color: rgb(85, 26, 195);
+     margin: 130px;
+     font-family: 'Fjalla One', sans-serif;
+ }
+ 
+ .texto-galeria{
+     font-size: 30px;
+     color: black;
+     font-family: 'Space Grotesk', sans-serif;
+ }
+ 
+ @media (max-width: 576px){
+     .titulo-mio{
+         font-size: 40px
+     }
+     
+     .texto-mio{
+         font-size: 15px;
+     }
+ 
+     .subtitulo-1{
+         font-size: 25px;
+         margin: 20px 70px;
+     }
+ 
+     .subtitulo-2{
+         font-size: 25px;
+         margin: 40px;
+     }
+     .texto-galeria{
+         font-size: 14px;
+ 
+     }
+ 
+ 
+     .titulo-mio2{
+         font-size: 33px
+     }
+     
+     .h2-actividades{
+          font-size: 20px;
+          margin: 40px;
+     }
+ 
+     .tarjeta-mia{
+         margin-left: 1rem;
+        margin-right: 1rem;
+     }
+     
+    .texto-footer li{
+     font-size: 11px;
+    }
+ 
+     .col-10{
+         width: 370px;
+     }
+ 
+     .navbar-nav{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding-left: 0;
+     }
+ 
+     .mi-hotel{
+         font-size: 25px;
+         margin: 8px 50px;
+     }
+ 
+     .titulo-mapa{
+         font-size: 50px;
+         color: rgb(78, 5, 138);
+         margin-left: 60px;
+     
+      }
+     .h2-mapa{
+         font-size: 39px;
+         margin-left: 35px;
+     }
+     
+     .iframe-mio{
+         width: 350px;
+         height: 200px;
+     
+      }
+      
+ }
+ 
+ 
+   /* footer */
+ 
+ .texto-footer{
+     color: rgb(148, 146, 146);
+     font-size: 14px;
+     font-family: 'Bodoni Moda', serif;
+ }
+
+

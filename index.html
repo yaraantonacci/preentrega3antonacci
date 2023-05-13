@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!--bs-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/791851befb.js" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Bai+Jamjuree:ital,wght@1,300&family=Bodoni+Moda:ital@1&family=Fjalla+One&family=Julius+Sans+One&family=Oswald:wght@300&family=Space+Grotesk&display=swap"
+        rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>BARILOCHE</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-miaprinc">
+            <div class="container-fluid nav-flex">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/iconolupa.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/actividades.html">ACTIVIDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/alojamiento.html">ALOJAMIENTOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./paginas/galeria.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                GALERÍA
+                            </a>
+                            <ul class="dropdown-menu dropdown-mio">
+                                <li>
+                                    <a class="dropdown-item" href="./paginas/galeria.html">Verano</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./paginas/galeria.html">Otoño</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./paginas/galeria.html">Invierno</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./paginas/galeria.html">Primavera</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="./paginas/comollego.html">¿CÓMO LLEGO?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+    </header>
+
+    <main>
+        <h1 class="text-center  display-1 titulo-mio">BARILOCHE</h1>
+
+        <!-- carrusel -->
+        <div class="container-fluid">
+            <div class="row">
+                <div id="carouselExampleCaptions" class="carousel slide col-8 img-fluid d-block mx-auto">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/barilochefondo3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="texto-carrusel">CERRO TRONADOR
+                                </h5>
+                                <p class="texto-carrusel2">
+                                    Separa dos parques nacionales: el Nahuel Huapi, en las provincias de Río Negro y
+                                    Neuquén, Argentina;
+                                    y el Vicente Pérez Rosales en la provincia de Llanquihue, Chile.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/barilochefondo2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="texto-carrusel">LAGO NAHUEL HUAPI</h5>
+                                <p class="texto-carrusel2">
+                                    Su intenso color azul, sus islas, y el paisaje que lo rodea, lo convierten en uno de
+                                    los
+                                    lugares más
+                                    atractivos del sur argentino</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/barilochefondo.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="texto-carrusel">LAGO MORENO</h5>
+                                <p class="texto-carrusel2">En sus costas se levantan dos pequeñas poblaciones
+                                    eminentemente
+                                    turísticas, Colonia Suiza y Villa
+                                    Llao Llao.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <p class="text-center col-lg-12 col-12 texto-mio fw-semibold lh-sm ">
+                    La ciudad de San Carlos de Bariloche está ubicada en la
+                    provincia de Río Negro. Es una de
+                    la ciudades
+                    argentinas más pobladas de los Andes Patagónicos. El turismo es la actividad económica primordial de
+                    la
+                    ciudad, que cuenta con importantes centros de esquí y otras actividades destinadas a los amantes
+                    viajeros.
+                    Descubrir cada rincón de esta hermosa ciudad es un placer para cualquiera, te invitamos a que
+                    conozcas
+                    un
+                    poco de todo lo maravilloso que tiene para vos.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <section>
+
+        <h2 class="text-center subtitulo-1 mt-5">CONOCÉ TODAS LAS ACTIVIDADES Y ATRACCIONES QUE BARILOCHE TIENE PARA VOS
+        </h2>
+
+
+        <div class="container-fluid mt-5">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="card tarjeta-mia ">
+                        <img src="./img/lagos fotos.jpg" class="card-img-top rounded-2"
+                            alt="Lago con montañas de fondo">
+                        <div class="card-body">
+                            <h3 class="card-title text-center fw-semibold">LAGOS</h3>
+                            <p class="card-text">Ideales para una tarde de descanso en las playas más increíbles de la
+                                Patagonia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card tarjeta-mia">
+                        <img src="./img/bicicletamontaña(3).jpg" class="card-img-top rounded-2"
+                            alt="Mountain bike deporte extremo">
+                        <div class="card-body">
+                            <h3 class="card-title text-center fw-semibold">MOUNTAIN BIKE</h3>
+                            <p class="card-text">Recorridos grupales a pura adrenalina con las mejores vistas
+                                panorámicas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card tarjeta-mia">
+                        <img src="./img/skyfoto.jpg" class="card-img-top rounded-2" alt="Hombre haciendo sky">
+                        <div class="card-body">
+                            <h3 class="card-title text-center fw-semibold">SKY</h3>
+                            <p class="card-text">Ofrecemos las mejores escuelas de sky para aprender y disfrutar la
+                                nieve al máximo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card tarjeta-mia">
+                        <img src="./img/cerroimagenes(1).jpg" class="card-img-top rounded-2" alt="Paisaje patagónico">
+                        <div class="card-body">
+                            <h3 class="card-title text-center fw-semibold">CERROS</h3>
+                            <p class="card-text">Imponentes lugares con los centros de sky más grandes de Latinoamérica.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card tarjeta-mia">
+                        <img src="./img/hotelimagen.jpg" class="card-img-top rounded-2" alt="Hotel patagónico">
+                        <div class="card-body">
+                            <h3 class="card-title text-center fw-semibold">HOTELERÍA</h3>
+                            <p class="card-text">La mejor y más amplia hospitalidad para su estadía en la ciudad.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card tarjeta-mia">
+                        <img src="./img/trekkinfoto(1).jpg" class="card-img-top rounded-2"
+                            alt="Caminata con increíbles paisajes">
+                        <div class="card-body">
+                            <h3 class="card-title text-center fw-semibold">TREKKING</h3>
+                            <p class="card-text">Acompañados de los mejores guías de alta montaña, increíble
+                                experiencia.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <a class="text-start mt-5 subtitulo-2" href="./paginas/galeria.html">GALERÍA</a>
+
+
+        <p class="text-center texto-galeria">
+            Descubrí Bariloche en sus cuatro estaciones del año</p>
+        <div class="container text-center">
+            <img src="./img/galeriainicio.jpg" alt="Ciudad a orillas del lago"
+                class="img-fluid rounded-2">
+        </div>
+        </aside>
+        <hr>
+
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10 col-8">
+                        <ul class="list-unstyled texto-footer">
+                            <li>¿Quiénes somos?</li>
+                            <li>
+                                Bases y condiciones</li>
+                            <li>
+                                Depto. de unformes y atención al turista</li>
+                            <li>
+                                Secretaría de Turismo</li>
+                            <li>
+                                Tel:0294 41234567</li>
+                            <li>
+                                Desarrolado por: Yara Antonacci</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-2 col-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71776.49592480506!2d-71.25962418473465!3d-41.136023634959244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1680359853739!5m2!1ses!2sar"
+                            width="100" height="126" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </footer>
+
+        <!--scrip-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>
