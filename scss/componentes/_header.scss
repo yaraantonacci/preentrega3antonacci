@@ -1,0 +1,52 @@
+.navbar-miaprinc{
+    background-color: $bg-nav;
+    justify-content: right;
+    font-family: map-get($fuentes, abel);
+    font-size: 23px;  
+}
+
+
+
+header{
+    background-color: $bg-nav;
+    nav{
+        justify-content: right;
+        ul{
+            list-style: none;
+            li{
+                font-family: map-get($fuentes, abel);
+                a {
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.dropdown-mio{
+    background-color: $bg-down ;
+}
+
+.titulonav-mio{
+    color: $colornav;
+    font-size: nth($fsz , 6 );
+    font-family: map-get($fuentes, julius);
+    
+}
+
+
+
+.navbar-nav{
+        @include medianav;
+        
+    }
+      
+
+ body{
+    overflow-x: hidden;
+ }

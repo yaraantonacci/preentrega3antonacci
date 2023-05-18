@@ -1,0 +1,141 @@
+/*titulos y subtitulos*/
+
+.titulo-mio {
+    font-family: map-get($fuentes, fjalla);
+    font-size: nth($fsz, 1);
+    color: nth($colores, 1);
+}
+
+
+.titulo-mio2 {
+    font-size: map-get($titulopages, sizeletra);
+    color: map-get($titulopages, color);
+    font-family: map-get($fuentes, julius);
+}
+
+.subtitulo-1 {
+    font-size: nth($fsz, 4);
+    color: nth($colores, 11);
+    margin: 50px 250px;
+    font-family: map-get($fuentes, oswald);
+
+
+}
+
+.subtitulo-2 {
+    font-size: 55px;
+    color: nth($colores, 11);
+    margin: 130px;
+    font-family: map-get($fuentes, fjalla);
+}
+
+.titulo-mapa {
+    font-size: nth($fsz, 2);
+    color: nth($colores, 2);
+    margin-left: 80px;
+    font-family: map-get($fuentes, julius);
+}
+
+.h2-actividades {
+    color: nth($colores, 4);
+    font-size: nth($fsz, 4);
+    margin: 30px 150px;
+    font-family: map-get($fuentes, fjalla);
+}
+
+.mi-hotel {
+    color: nth($colores, 8);
+    font-size: nth($fsz, 4);
+    margin: 20px 100px;
+    font-family: map-get($fuentes, abel);
+}
+
+.h2-mapa {
+    font-size: nth($fsz, 3);
+    color: nth($colores, 2);
+    margin-left: 80px;
+    font-family: map-get($fuentes, julius);
+}
+
+@media (max-width: 576px) {
+    .titulo-mio {
+        font-size: nth($fsz, 5);
+    }
+
+    .titulo-mio2 {
+        font-size: nth($fsz, 6);
+    }
+
+    .subtitulo-1 {
+        font-size: nth($fsz, 6);
+        margin: 20px 70px;
+    }
+
+    .subtitulo-2 {
+        font-size: 25px;
+        margin: 40px;
+    }
+
+    .titulo-mapa {
+        font-size: nth($fsz, 4);
+        color: nth($colores, 2);
+        margin-left: 60px;
+
+    }
+
+    .h2-actividades {
+        font-size: nth($fsz, 7);
+        margin: 40px;
+    }
+
+    .mi-hotel {
+        font-size: nth($fszmedia, 3);
+        margin: 8px 50px;
+    }
+
+    .h2-mapa {
+        font-size: nth($fsz, 5);
+
+        margin-left: 35px;
+    }
+}
+
+
+/*textos*/
+
+.texto-mio {
+    @extend %texto;
+    font-family: map-get($fuentes, space);
+
+}
+
+.texto-galeria {
+    @extend %texto;
+    font-family: map-get($fuentes, julius);
+ }
+
+.texto-carrusel {
+    font-size: nth($fsz, 4);
+    font-family: map-get($fuentes, abel);
+
+}
+
+.texto-carrusel2 {
+    font-family: map-get($fuentes, abel);
+    font-size: nth($fsz, 6);
+}
+
+.texto-acordeon {
+    font-family: map-get($fuentes, space);
+}
+
+@media (max-width: 576px) {
+    .texto-mio{
+        font-size: nth($fszmedia, 2);
+       }
+    .texto-galeria{
+        font-size: nth($fszmedia, 1);
+
+    }
+       
+}

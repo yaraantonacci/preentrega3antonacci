@@ -1,0 +1,10 @@
+@mixin medianav{
+        @media (max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0;
+            
+    }
+ }
+   

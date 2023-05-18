@@ -1,0 +1,24 @@
+
+@import './base/vars';
+@import './base/extend';
+@import './base/listas';
+@import './base/maps';
+@import './base/mixin';
+ 
+@import './componentes/header';
+@import './componentes/main';
+@import './componentes/section';
+@import './componentes/footer';
+@import './componentes/media';
+
+
+
+
+*{
+    padding: 0%;
+    margin: 0%; 
+ }
+ 
+ body{
+     background-color: rgb(224, 219, 215);
+ }

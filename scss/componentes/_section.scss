@@ -1,0 +1,82 @@
+.tarjeta-mia{
+
+background: #749c9b;
+background: linear-gradient(0deg, #5fd5d3, #EDF1E9);
+    padding: map-get($tarjeta, pad );
+    margin: map-get($tarjeta, marg );
+    border-radius: map-get($tarjeta, borde);
+    font-family: map-get($fuentes, fjalla )
+   
+
+}
+
+.tarjeta-mia:hover{
+    transform: scale(1.4);
+    transition: all 2s;
+}
+
+
+
+.mi-card{
+    background-color: nth($colores, 9 );
+    font-size: nth($fsz , 7);
+    font-family: map-get($fuentes , bai )
+}
+
+.micarta{
+    margin: 0px 00px;
+    
+}
+
+
+.acordeon-fondo1,
+.acordeon-fondo1:active{
+    background-color:nth($colores, 5 );
+    font-family: map-get($fuentes, julius)
+}
+.acordeon-fondo2{
+    background-color: nth($colores, 6 );
+    font-family: map-get($fuentes, julius)
+}
+.acordeon-fondo3{
+    background-color:  nth($colores, 7 );
+    font-family: map-get($fuentes, julius)
+}
+
+
+.estilo-img{
+     
+    width: map-get($img , ancho);
+    height: map-get($img , largo );
+}
+
+
+.iframe-mio{
+ @extend %tmniframe; 
+    
+}
+
+.iconos-mio{
+    margin: 10px 100px;
+}
+
+.iconos-miotren{
+    margin: 10px 300px;
+}
+
+@media (max-width: 576px){
+    .tarjeta-mia{
+        margin-left: 1rem;
+       margin-right: 1rem;
+    }
+    
+    .col-10{
+        width: 370px;
+    }
+    .iframe-mio{
+        width: 350px;
+        height: 200px;
+    
+     }
+     
+}

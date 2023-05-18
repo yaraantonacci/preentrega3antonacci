@@ -1,0 +1,20 @@
+
+
+footer{
+    color: $colorfooter;
+    ul {
+        list-style: none;
+     li{
+        font-size: 14px;
+        font-family: map-get($fuentes, bodoni);
+        
+      }
+    }
+
+}
+
+@media (max-width: 576px){
+    .texto-footer li{
+        font-size: 11px;
+       }
+}
