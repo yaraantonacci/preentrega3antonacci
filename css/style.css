@@ -255,6 +255,12 @@ footer ul li {
     font-size: 11px;
   }
 }
+.iconofooter {
+  width: 30px;
+  height: 30px;
+  margin: 7px;
+}
+
 * {
   padding: 0%;
   margin: 0%;
